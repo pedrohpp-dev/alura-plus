@@ -29,6 +29,8 @@ body {
     background-image: url("../assets/background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container__conteudo {
@@ -37,9 +39,17 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.container__conteudo__caixa {
+    margin: 0 6rem;
+}
+
 .container__conteudo__titulo {
     font-size: 1.75rem;
     font-weight: 700;
+}
+
+.container__conteudo__imagem {
+    margin: 1rem 0 2rem 0;
 }
 
 .container__conteudo__botao {
@@ -49,6 +59,7 @@ body {
     color: var(--branco-principal);
     text-decoration: none;
     display: block;
+    margin-bottom: 1em;
 }
 
 .container__conteudo__botao_sencudario {
@@ -59,6 +70,7 @@ body {
     color: var(--branco-principal);
     text-decoration: none;
     display: block;
+    margin-bottom: 1em;
 }
 
 .container__conteudo__aviso {
