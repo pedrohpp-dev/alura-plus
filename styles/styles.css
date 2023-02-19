@@ -59,10 +59,10 @@ body {
     color: var(--branco-principal);
     text-decoration: none;
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
-.container__conteudo__botao_sencudario {
+.container__conteudo__botao_secundario {
     background-color: transparent;
     border: 1px solid var(--branco-principal);
     border-radius: 5px;
@@ -70,10 +70,61 @@ body {
     color: var(--branco-principal);
     text-decoration: none;
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .container__conteudo__aviso {
     font-size: 0.75rem;
     color: var(--cinza-secundario);
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 6rem;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-family: var(--font-principal);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 0.1rem;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.botao__secundario {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.container__conteudo__descricao {
+    padding: 2rem;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5rem 0;
+}
+
+.dispositivos__titulos {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.list-item {
+    font-size: 2rem;
+    color: var(--branco-principal);
 }
