@@ -128,3 +128,31 @@ body {
     font-size: 2rem;
     color: var(--branco-principal);
 }
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 10rem 5rem 5rem 5rem;
+}
+
+.rodape__lista {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.rodape__link {
+    color: var(--branco-principal);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.rodape__texto {
+    font-size: 0.87rem;
+    color: var(--cinza-secundario);
+    text-align: center;
+    
+}
