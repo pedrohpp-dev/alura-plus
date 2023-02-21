@@ -18,7 +18,7 @@
 
  ##
  
- ![alura-plus-1](https://user-images.githubusercontent.com/103059153/220233163-edc2c18a-464d-467a-bf83-5babb0c210be.png)
+ ![alura-plus-1](https://user-images.githubusercontent.com/103059153/220234235-c2674a59-cf6c-4aa7-924a-c8f739ad5b56.png)
  
  ![alura-plus-2](https://user-images.githubusercontent.com/103059153/220234013-314791c4-f148-42bc-aabf-76a18fd32495.png)
  
