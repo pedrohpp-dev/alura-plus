@@ -60,6 +60,11 @@ body {
     text-decoration: none;
     display: block;
     margin-bottom: 1rem;
+    transition: 0.5s all ease-in-out;
+}
+
+.container__conteudo__botao:hover {
+    transform: scale(1.1);
 }
 
 .container__conteudo__botao_secundario {
@@ -71,6 +76,11 @@ body {
     text-decoration: none;
     display: block;
     margin-bottom: 1rem;
+    transition: 0.5s all ease-in-out;
+}
+
+.container__conteudo__botao_secundario:hover {
+    transform: scale(1.1);
 }
 
 .container__conteudo__aviso {
@@ -135,7 +145,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    margin: 10rem 5rem 5rem 5rem;
+    margin: 10rem 5rem 3rem 5rem;
 }
 
 .rodape__lista {
@@ -144,10 +154,14 @@ body {
     list-style-type: none;
 }
 
-.rodape__link {
+.lista__link a {
     color: var(--branco-principal);
     text-decoration: none;
     font-size: 1rem;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
 }
 
 .rodape__texto {
